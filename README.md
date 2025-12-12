@@ -1,1 +1,7 @@
-# Prog 1 Final Project - Game
+# <div align='center'>Falppy Bird</div>
+
+## <div align='center'>Context</div>
+This project was done as my programming 1 final project, during my first semester. I was already somewhat familiar with programming when starting the program, because I learned how to code in Python when I was 12, however my general programming knowledge and specific C# knowledge was still pretty limited. It's a miracle that this project was as good as it is, because I didn't even know how to use lists, let alone objects, classes or pathfinding. Additionaly, I had no version control or github repository because we didn't get to that subject until the second semester.
+
+## <div align='center'>Description</div>
+The premise of this game is simple: Zombies are coming from all sides, you must survive as long as possible. You can move around and shoot in cardinal directions. Code-wise, the game is terrible: the zombies are not objects, their health and position is stored in different arrays, connected together by a single index. Because it's arrays, there's always a hundred zombies that never truly die, they just reset and return to the edge. The display is also not good, I optimized it as much as I could, but there's a limit as to how fast the terminal can render text, so there's constant flickering, but if I followed my original plan of having colors, it wouldn't fully render the screen in time before the next render. Overall, I did a lot with very little knowledge, but there's still a lot of room for improvement.
